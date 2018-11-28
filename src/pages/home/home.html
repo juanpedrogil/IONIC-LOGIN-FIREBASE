@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list >
+    <ion-item >
+      <button ion-button primary (click)="logout()">Log out</button>
+      <div style="text-align:center;">
+        <img [src]="this.data.url">      
+      </div>
+    </ion-item>
+    <ion-item>
+        <p>
+          <b>Nombre: </b>
+          {{this.data.nombre}}
+        </p>
+    </ion-item>
+  </ion-list>
+</ion-content>

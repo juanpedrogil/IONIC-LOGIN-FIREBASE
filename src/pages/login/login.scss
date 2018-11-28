@@ -1,0 +1,31 @@
+page-login {
+
+  body { padding: 2em; }
+
+/* Facebook */
+.loginBtn--facebook {
+  background-color: #4C69BA;
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+}
+.loginBtn--facebook:before {
+  border-right: #364e92 1px solid;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+}
+/* Google */
+.loginBtn--google {
+  /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+  background: #DD4B39;
+}
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+  background: #E74B37;
+}
+.centeral{
+  text-align: center
+}
+
+}
+
